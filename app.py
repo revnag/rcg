@@ -244,7 +244,7 @@ def select_graph(df,myy,value,pram,site,site_sel,legend,colorVal):
                           )             
              line_fig.update_layout(showlegend=legend)
              line_fig.update_traces(mode="markers+lines",marker=dict(size=3))
-             line_fig.update_layout(hoverlabel=dict(bgcolor="white",font_size=16,font_family="Rockwell"))
+             line_fig.update_layout(hoverlabel=dict(bgcolor="white",font_size=10,font_family="Rockwell"))
              line_fig.update(layout=dict(title=dict(
                  x=0.5,
                  y=0.9,
