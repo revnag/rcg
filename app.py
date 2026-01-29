@@ -62,7 +62,7 @@ dbc.Row([
   dbc.Col([dbc.Card([
     dbc.CardImg(src="assets/NCG.png",className = 'align-self-right',top=True)
       ],style = {'width':"6rem",'border':0}),],className="g0",align='center'),
-  dbc.Col([html.H1("RCG's Quality Parameters",className=" text-align: justify text-primary")],
+  dbc.Col([html.H1("NCG CORS Quality Parameters",className=" text-align: justify text-primary")],
         width={'size':7,'offset':0},className="p-1" "g0",align='center'),
   dbc.Col([dbc.Card([
     dbc.CardImg(src="assets/bluelog.jpg",className = 'align-self-left',top=True)
@@ -257,3 +257,4 @@ def mymap(file):
 if __name__=='__main__':
     app.run_server(debug=True)
     
+
